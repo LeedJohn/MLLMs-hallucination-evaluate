@@ -1,0 +1,6 @@
+﻿annotation_id,dataset,model_key,prompt_type,human_is_hallucination,human_hallucination_type,judge_is_hallucination,judge_hallucination_type,judge_confidence,judge_reason,human_confidence_1_to_3
+HJ017,pope,qwen2_5_vl,direct,no,none,yes,vision-grounding error,3,"The image shows a boat-like vehicle on top of the minivan, so answering no contradicts the visible evidence.",2
+HJ057,mathvista,gemini_3_1_flash_lite,cot_light_final_first,no,none,yes,vision-grounding error,2,"The answer is correct, but the explanation wrongly says the kitten is sleeping inside the bed/cushion rather than on it.",3
+HJ022,pope,qwen2_5_vl,cot_light,yes,vision-grounding error,uncertain,uncertain,2,"The image clearly shows skis, but any snowboard object is not clearly visible, so the model's denial cannot be judged reliably.",3
+HJ046,mathvista,qwen2_5_vl,direct,uncertain,uncertain,yes,reasoning hallucination,2,"The model gives an age gap of 4, but the reference answer is 6 and the visible ages suggest a slightly larger difference.",1
+HJ052,mathvista,gemini_3_1_flash_lite,cot_light_final_first,uncertain,uncertain,yes,reasoning hallucination,3,The response gives the wrong age gap and its explanation is internally inconsistent with the final answer.,1

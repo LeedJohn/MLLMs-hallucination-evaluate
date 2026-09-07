@@ -1,0 +1,18 @@
+# Do not upload source images, model weights, or raw datasets.
+figures/
+**/images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.xlsx
+models/*
+!models/.gitkeep
+datasets/*
+!datasets/.gitkeep
+
+# Do not upload credentials or local caches.
+.env
+hf_cache/
+__pycache__/
+*.pyc

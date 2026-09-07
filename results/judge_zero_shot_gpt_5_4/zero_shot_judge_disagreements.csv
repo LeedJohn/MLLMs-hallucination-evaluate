@@ -1,0 +1,5 @@
+﻿annotation_id,dataset,model_key,prompt_type,human_is_hallucination,human_hallucination_type,judge_is_hallucination,judge_hallucination_type,judge_confidence,judge_reason,human_confidence_1_to_3
+HJ026,pope,qwen3_vl,cot_light,no,none,yes,vision-grounding error,3,"The answer is correct, but it falsely claims the mirror reflection shows a sink.",3
+HJ030,pope,qwen2_5_vl,cot_light,no,none,yes,vision-grounding error,3,"The response incorrectly says the image shows a shark and an octopus, which is not supported by the visible kites.",3
+HJ050,mathvista,gemini_3_1_flash_lite,cot_light_final_first,no,none,yes,reasoning hallucination,3,"The response misadds the largest and smallest bars; the chart values are 5.25 trillion and 247.4 billion, which do not sum to 5.50.",3
+HJ051,mathvista,gemini_3_1_flash_lite,cot_light_final_first,yes,vision-grounding error,no,none,2,"The image shows several states with lighter shades than Rhode Island, so answering No is supported.",3

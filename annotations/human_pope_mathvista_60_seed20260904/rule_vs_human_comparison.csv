@@ -1,0 +1,184 @@
+﻿annotation_id,dataset,model_key,prompt_type,gold_answer,model_prediction,is_correct_by_rule,human_is_hallucination,human_hallucination_type,rule_strict_pred,rule_error_proxy_pred,agreement_strict,question,raw_output,human_evidence
+HJ001,pope,qwen2_5_vl,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a truck in the image?,"The image shows a man standing under a tent with various items for sale, including a sign that says ""Fresh Roasted Peanuts."" There is also a small vehicle in the background that appears to be a utility vehicle, possibly a golf cart or a similar type of vehicle used for transporting goods at fairs or markets. However, it is not clearly identifiable as a truck.
+
+Final answer: No","The truck is in the center of the picture, but is obscured by the railing."
+HJ002,pope,qwen2_5_vl,direct,yes,yes,True,no,none,no,no,True,Is there a truck in the image?,Yes.,correct answer
+HJ003,pope,qwen3_vl,cot_light,no,yes,False,yes,vision-grounding error,yes,yes,True,Is there a car in the image?,"The image shows a shelf with various items, including a teddy bear, a Santa Claus figurine, and several containers. One of the containers, located on the right side of the shelf, has a design that clearly depicts a cartoon car. This is visible on the cylindrical container with the label ""Teachers' Fave"" and a colorful illustration of a car.
+
+yes","The image only contains a car-like illustration/logo, not a real car object."
+HJ004,pope,qwen3_vl,direct,no,no,True,no,none,no,no,True,Is there a car in the image?,no,correct answer
+HJ005,pope,llava_onevision,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a suitcase in the image?,no,The person in the picture is sitting on a suitcase.
+HJ006,pope,llava_onevision,direct,yes,yes,True,no,none,no,no,True,Is there a suitcase in the image?,Yes,correct answer
+HJ007,pope,qwen2_5_vl,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a toilet in the image?,"The image shows a display of decorative items that resemble toilets, but they are not functional toilets. They appear to be ornamental pieces, possibly part of an exhibit or a collection. Therefore, the final answer is no, there is not a functional toilet in the image.","The image contains toilet-like objects, but the model adds an unsupported functional requirement and answers no."
+HJ008,pope,qwen2_5_vl,direct,yes,yes,True,no,none,no,no,True,Is there a toilet in the image?,Yes.,correct answer
+HJ009,pope,qwen2_5_vl,direct,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a backpack in the image?,No.,There is a person in the foreground wearing a bag that appears to be a backpack
+HJ010,pope,qwen2_5_vl,cot_light,yes,yes,True,no,none,no,no,True,Is there a backpack in the image?,"The image shows a group of people boarding an airplane, with some luggage visible. There is a person in the foreground wearing a bag that appears to be a backpack. 
+
+Final answer: Yes.",correct answer
+HJ011,pope,qwen2_5_vl,cot_light,yes,no,False,no,none,no,yes,True,Is there a sports ball in the image?,"The image shows a person playing tennis, and it is common for tennis to involve a ball. However, the ball itself is not visible in this particular image. The person appears to be in motion, possibly having just hit the ball, but the ball is out of frame.
+
+Final answer: No","The ball is not visible in the image, so the model answer is visually supported."
+HJ012,pope,qwen2_5_vl,cot_light,yes,no,False,no,none,no,yes,True,Is there a car in the image?,"No, there is no car in the image. The image shows a decorative vase with red roses and green leaves, placed on a surface indoors. There are no elements that resemble a car.","The car is not visible in the image, so the model answer is visually supported."
+HJ013,pope,qwen3_vl,direct,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a sports ball in the image?,no,"The ball was thrown by the person in the picture, turning into a white afterimage."
+HJ014,pope,qwen3_vl,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a sports ball in the image?,"The image shows three men in early baseball uniforms, and while one is holding a bat, there is no visible sports ball (like a baseball) in the frame. The focus is on the players and their attire.
+
+no",The ball is in the hand of the person on the far right of the picture.
+HJ015,pope,llava_onevision,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a chair in the image?,no,"The chair is at the little girl's feet in the picture, only the upper part is visible."
+HJ016,pope,qwen2_5_vl,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a spoon in the image?,"No, there is no spoon in the image. The image shows a plate with a sandwich, tomato slices, lettuce, and some fried food items, along with a fork and knife in the background.",The spoon is in the upper right corner of the image; only the handle is visible.
+HJ017,pope,qwen2_5_vl,direct,yes,no,False,no,none,no,yes,True,Is there a boat in the image?,No.,"The boat is not visible in the image, so the model answer is visually supported."
+HJ018,pope,gemini_3_1_flash_lite,cot_light,yes,no,False,no,none,no,yes,True,Is there a person in the image?,"The image only contains household objects like a television, a mug, and a vase of flowers.
+
+Final answer: no.","The person is not visible in the image, so the model answer is visually supported."
+HJ019,pope,qwen2_5_vl,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a traffic light in the image?,"No, there is no traffic light visible in the image. The scene shows a train station with tracks, a bridge, and some construction activity, but no traffic lights are present.",The traffic light should be the small target in the picture.
+HJ020,pope,qwen3_vl,direct,yes,no,False,no,none,no,yes,True,Is there a skateboard in the image?,no,"The skateboard is not visible in the image, so the model answer is visually supported."
+HJ021,pope,qwen3_vl,direct,yes,no,False,no,none,no,yes,True,Is there a motorcycle in the image?,no,"The motorcycle is not visible in the image, so the model answer is visually supported."
+HJ022,pope,qwen2_5_vl,cot_light,yes,no,False,yes,vision-grounding error,no,yes,False,Is there a snowboard in the image?,"No, there is no snowboard in the image. The people are holding skis, and the background shows a ski resort with skiers and snowboarders, but no snowboard is visible in the foreground where the two people are standing.",The model restricts the answer to the foreground and ignores the visible snowboarders/background evidence.
+HJ023,pope,qwen3_vl,cot_light,no,no,True,no,none,no,no,True,Is there a dining table in the image?,"The image shows a red fire hydrant in the foreground and a bus in the background on a street, with no indoor or outdoor dining table visible. 
+
+no",correct answer
+HJ024,pope,gemini_3_1_flash_lite,cot_light,yes,yes,True,no,none,no,no,True,Is there a cell phone in the image?,"The woman is holding a mobile phone up to her ear.
+
+Final answer: yes",correct answer
+HJ025,pope,qwen2_5_vl,direct,yes,yes,True,no,none,no,no,True,Is there an umbrella in the image?,Yes.,correct answer
+HJ026,pope,qwen3_vl,cot_light,yes,yes,True,no,none,no,no,True,Is there a sink in the image?,"Yes, there is a white sink visible on the countertop in the foreground of the image, with a faucet and a mirror above it. The reflection in the mirror also shows a sink.
+
+yes",correct answer
+HJ027,pope,qwen3_vl,direct,no,no,True,no,none,no,no,True,Is there a fork in the image?,no,correct answer
+HJ028,pope,gemini_3_1_flash_lite,cot_light,yes,yes,True,no,none,no,no,True,Is there a remote in the image?,"There is a remote control visible on the coffee table.
+
+Final answer: yes",correct answer
+HJ029,pope,gemini_3_1_flash_lite,direct,no,no,True,no,none,no,no,True,Is there a car in the image?,no,correct answer
+HJ030,pope,qwen2_5_vl,cot_light,no,no,True,no,none,no,no,True,Is there a chair in the image?,"No, there is no chair in the image. The image shows large kites shaped like a shark and an octopus, along with some people in the background, but no chairs are visible.",correct answer
+HJ031,mathvista,llava_onevision,direct,9,8,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large purple spheres. Subtract all small gray things. How many objects are left?",8,the model likely misidentifies object attributes or count
+HJ032,mathvista,llava_onevision,cot_light_final_first,9,9,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large purple spheres. Subtract all small gray things. How many objects are left?","Final answer: 9
+
+There are 9 objects left after removing the specified objects.",correct answer
+HJ033,mathvista,qwen3_vl,cot_light_final_first,2,"the figure shows two concentric circles? no, it shows two circles with centers p and q, and they are tangent at point r. since p, q, and r are colinear, and r is a point of tangency, the distance from p to r is the radius of the larger circle, which is 4. the distance from q to r is the radius of the smaller circle. since the circles are tangent externally, the distance between centers p and q equals the sum of the radii: pq = pr + qr. but pr is the radius of the larger circle (4), and qr is the radius of the smaller circle (let’s call it r). so pq = 4 + r. but also, since p, q, r are colinear and r is on the larger circle, the distance from p to r is 4. the distance from q to r is r. since q is inside the larger circle and the circles are tangent at r, q must lie between p and r. therefore, pr = pq + qr. so 4 = pq + r. but pq is the distance from center of larger circle to center of smaller circle. since the smaller circle is inside the larger one and tangent to it, the distance between",False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, P, Q, and R lie on the same line. P is the center of the larger circle, and Q is the center of the smaller circle. If the radius of the larger circle is 4, what is the radius of the smaller circle?
+Choices:
+(A) 1
+(B) 2
+(C) 4
+(D) 8
+(E) 16","The figure shows two concentric circles? No, it shows two circles with centers P and Q, and they are tangent at point R. Since P, Q, and R are colinear, and R is a point of tangency, the distance from P to R is the radius of the larger circle, which is 4. The distance from Q to R is the radius of the smaller circle. Since the circles are tangent externally, the distance between centers P and Q equals the sum of the radii: PQ = PR + QR. But PR is the radius of the larger circle (4), and QR is the radius of the smaller circle (let’s call it r). So PQ = 4 + r. But also, since P, Q, R are colinear and R is on the larger circle, the distance from P to R is 4. The distance from Q to R is r. Since Q is inside the larger circle and the circles are tangent at R, Q must lie between P and R. Therefore, PR = PQ + QR. So 4 = PQ + r. But PQ is the distance from center of larger circle to center of smaller circle. Since the smaller circle is inside the larger one and tangent to it, the distance between",The model identifies the circles but uses inconsistent geometric relations and ignores that P also lies on circle Q.
+HJ034,mathvista,qwen3_vl,direct,2,2,True,no,none,no,no,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, P, Q, and R lie on the same line. P is the center of the larger circle, and Q is the center of the smaller circle. If the radius of the larger circle is 4, what is the radius of the smaller circle?
+Choices:
+(A) 1
+(B) 2
+(C) 4
+(D) 8
+(E) 16",B,correct answer
+HJ035,mathvista,llava_onevision,direct,d,b,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The diagram represents successive rotations, starting from the top down. Which shape comes next?
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E",B,The model may not have understood the laws of rotation.
+HJ036,mathvista,llava_onevision,cot_light_final_first,d,d,True,no,none,no,no,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The diagram represents successive rotations, starting from the top down. Which shape comes next?
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E","Final answer: D
+Then give one short reason based on the image.",correct answer
+HJ037,mathvista,qwen2_5_vl,cot_light_final_first,1,0,False,yes,vision-grounding error,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the y-intercept of this function?","Final answer: 0
+
+Reason: The y-intercept occurs where the graph crosses the y-axis, which is at the point (0, 0) in the given graph.","The y-intercept occurs where the graph crosses the y-axis, which is at the point (1, 0) in the given graph."
+HJ038,mathvista,qwen2_5_vl,direct,1,1,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the y-intercept of this function?",1,correct answer
+HJ039,mathvista,gemini_3_1_flash_lite,cot_light_final_first,7,8,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all tiny cubes. Subtract all brown balls. How many objects are left?","Final answer: 8
+Reason: There are 10 objects total, and subtracting the one tiny cube and one brown ball leaves 8 objects.",the model likely misidentifies object attributes or count
+HJ040,mathvista,gemini_3_1_flash_lite,direct,7,7,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all tiny cubes. Subtract all brown balls. How many objects are left?",7,correct answer
+HJ041,mathvista,llava_onevision,cot_light_final_first,4.5,1.0,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: The magnitude of the acceleration vector a is $10 \mathrm{~cm} / \mathrm{s}^2$. Use the figure to estimate the tangential components of $\mathbf{a}$.","Final answer: 1.0
+
+The reason is that the tangential component of acceleration is the component of the acceleration vector that is parallel to the velocity vector. In this case, the tangential component of acceleration is equal to the magnitude of the acceleration vector, which is given as 10 cm/s^2. Since the question asks for the tangential component in units of cm/s^2, we can round this value to one decimal place, giving us 1.0 cm/s^2.",The model gives an internally inconsistent calculation: it states the tangential acceleration is 10 cm/s^2 but rounds it to 1.0 cm/s^2.
+HJ042,mathvista,llava_onevision,cot_light_final_first,4232,2,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A cross-section of an airplane wing is shown. Measurements of the thickness of the wing, in centimeters, at 20-centimeter intervals are 5.8, 20.3, 26.7, 29.0, 27.6, 27.3, 23.8, 20.5, 15.1, 8.7, and 2.8. Use the Midpoint Rule to estimate the area of the wing's cross-section.","Final answer: 1140.1 cm^2
+
+The reason is that the Midpoint Rule is used to estimate the area under a curve by approximating it with rectangles. In this case, the thickness of the wing is used as the height of the rectangles, and the distance between measurements (20 cm) is used as the width. The sum of the areas of these rectangles gives an estimate of the total area of the wing's cross-section.","The method description is reasonable, but the final numerical result is far from the correct answer, indicating an error in calculation or value aggregation."
+HJ043,mathvista,qwen2_5_vl,cot_light_final_first,70.4,65.9,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: What is the sum of 2002, 2003 and 2004?","Final answer: 65.9
+
+Reason: The data points for 2002, 2003, and 2004 are 19.4%, 23.2%, and 27.8% respectively. Adding these percentages together gives 19.4 + 23.2 + 27.8 = 65.9%.","The model reads the chart values but makes an incorrect arithmetic calculation: 19.4 + 23.2 + 27.8 should be 70.4, not 65.9."
+HJ044,mathvista,gemini_3_1_flash_lite,direct,9079,877,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What number is shown?",877,the model likely misidentifies object attributes or count
+HJ045,mathvista,llava_onevision,direct,positive,negative,False,no,none,yes,yes,False,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The slope of f(x) at x=0 is ____
+Choices:
+(A) positive
+(B) negative
+(C) zero
+(D) undefined",B,The model correctly identifies the negative slope and selects option B
+HJ046,mathvista,qwen2_5_vl,direct,6,4,False,uncertain,uncertain,yes,yes,,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)",4,The image does not provide clear visual or textual evidence for the exact age gap.
+HJ047,mathvista,gemini_3_1_flash_lite,direct,7,6,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many items sold more than 3 units in at least one store?",6,The model may not have correctly interpreted the vertical axis of the bar chart.
+HJ048,mathvista,qwen2_5_vl,direct,1,18,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Calculate the missing item.",18,The model may not have a correct understanding of the relationship between numbers and geometry.
+HJ049,mathvista,llava_onevision,direct,√{2,√{3,False,yes,reasoning hallucination,yes,yes,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in Rt△ABC, ∠C = 90.0, ∠A = 30.0, BC = 2.0, the radius of ⊙C is 1.0, point P is the point on the hypotenuse AB, passing point P is a tangent PQ of ⊙C (Point Q is the tangent point), then the minimum value of the line segment PQ is ()
+Choices:
+(A) 2
+(B) √{3}
+(C) √{2}
+(D) 2-\frac{√{3}}{3}",B,The model may not have the correct geometric relationships shown in the image.
+HJ050,mathvista,gemini_3_1_flash_lite,cot_light_final_first,252.65,5.50,False,no,none,yes,yes,False,"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What's the total add up value of largest and smallest bar?","Final answer: 5.50
+Reason: The largest bar is 5.25 trillion and the smallest is 0.2474 trillion, which sum to approximately 5.50 trillion.",The model answer is correct after unit conversion; the rule evaluation/gold normalization does not handle billion-to-trillion conversion.
+HJ051,mathvista,gemini_3_1_flash_lite,cot_light_final_first,yes,no,False,yes,vision-grounding error,yes,yes,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Rhode Island have the lowest value in the USA ?
+Choices:
+(A) Yes
+(B) No","Final answer: (B)
+Reason: Rhode Island is colored with a darker shade than several other states, which have lighter colors indicating lower values.","The model misidentifies the location/color of Rhode Island on the map; Rhode Island is white, not darker."
+HJ052,mathvista,gemini_3_1_flash_lite,cot_light_final_first,27,12,False,uncertain,uncertain,yes,yes,,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)","Final answer: 12
+Reason: The image shows William S. Paley (born 1901) and Edward R. Murrow (born 1908), but the figures are actually CBS executives Frank Stanton (born 1908) and William S. Paley (born 1901), with a 7-year gap, or more accurately, the men are William S. Paley and Edward R. Murrow, who had a 7-year age difference, but based on historical identification of these specific individuals, the gap is 7 years,",3
+HJ053,mathvista,gemini_3_1_flash_lite,cot_light_final_first,19,19,True,no,none,no,no,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在△ABC中，AB的垂直平分线交AB于点D，交BC于点E，连接AE．若AB＝6，△ACE的周长为13，则△ABC的周长为（）
+Choices:
+(A) 19
+(B) 16
+(C) 29
+(D) 18","Final answer: 19, (A)
+Reason: Since DE is the perpendicular bisector of AB, AE = BE, so the perimeter of triangle ABC is AB + AC + BC = AB + (AC + AE) = 6 + 13 = 19.",correct answer
+HJ054,mathvista,qwen2_5_vl,cot_light_final_first,0.33,0.33,True,yes,vision-grounding error,no,no,False,"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What's the ratio of smallest segment and second largest segment?","Final answer: 0.33
+
+Reason: The smallest segment is ""Don't know"" at 7%, and the second largest segment is ""Strong ties with Russia"" at 15%. The ratio of these two segments is 7% / 15% = 0.4667, which can be rounded to 0.33 for simplicity.","The final answer is correct, but the model misreads the chart: the second largest segment is 21%, not 15%."
+HJ055,mathvista,gemini_3_1_flash_lite,direct,0,0,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many objects are preferred by more than 90 percent of people in at least one category?",0,correct answer
+HJ056,mathvista,llava_onevision,cot_light_final_first,7,7,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: For an assignment, Johnny looked at which countries got the most Nobel Prizes in various decades. In the 1990s, how many more Nobel Prize winners did Canada have than Italy? (Unit: Nobel Prize winners)","Final answer: 7
+Then give one short reason based on the image.",correct answer
+HJ057,mathvista,gemini_3_1_flash_lite,cot_light_final_first,yes,yes,True,no,none,no,no,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the bed much larger than the kitten?
+Choices:
+(A) Yes
+(B) No","Final answer: (A)
+Reason: The bed is significantly larger than the small kitten sleeping inside it.",correct answer
+HJ058,mathvista,gemini_3_1_flash_lite,cot_light_final_first,decrease,decrease,True,no,none,no,no,True,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: From the above food web diagram, what would happen to dragonfly if all mayfly dies
+Choices:
+(A) remains the same
+(B) increase
+(C) decrease
+(D) NA","Final answer: (C)
+Reason: The dragonfly nymph relies on the mayfly nymph as a food source, so its population would decrease if that food source disappears.",correct answer
+HJ059,mathvista,qwen2_5_vl,cot_light_final_first,7,7,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all purple matte cubes. Subtract all tiny gray metal cubes. How many objects are left?","Final answer: 7
+
+Reason: There is one purple matte cube and one tiny gray metal cube in the image. Subtracting these two objects leaves 7 objects.",correct answer
+HJ060,mathvista,qwen3_vl,direct,2,2,True,no,none,no,no,True,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the ratio of instagram to google?",2,correct answer

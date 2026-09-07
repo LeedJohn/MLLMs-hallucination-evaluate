@@ -1,0 +1,3023 @@
+{
+  "dataset": "xlrs",
+  "source": "/data2/huanjue/datasets/xlrs-lite",
+  "split": "train",
+  "seed": 20260903,
+  "selected_categories": [
+    "Object properties/Object color",
+    "Object properties/Object classification",
+    "Object spatial relationship/Object spatial relationship",
+    "Counting/Regional counting",
+    "Counting/Counting with complex reasoning"
+  ],
+  "total": 500,
+  "per_category": {
+    "Object properties/Object color": 100,
+    "Object properties/Object classification": 100,
+    "Object spatial relationship/Object spatial relationship": 100,
+    "Counting/Regional counting": 100,
+    "Counting/Counting with complex reasoning": 100
+  },
+  "samples": [
+    {
+      "index": 760,
+      "sample_id": "0",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 761,
+      "sample_id": "1",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 762,
+      "sample_id": "2",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 763,
+      "sample_id": "3",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 764,
+      "sample_id": "4",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 765,
+      "sample_id": "5",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 766,
+      "sample_id": "6",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 767,
+      "sample_id": "7",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 768,
+      "sample_id": "8",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 769,
+      "sample_id": "9",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 770,
+      "sample_id": "10",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 771,
+      "sample_id": "11",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 772,
+      "sample_id": "12",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 773,
+      "sample_id": "13",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 774,
+      "sample_id": "14",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 775,
+      "sample_id": "15",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 776,
+      "sample_id": "16",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 777,
+      "sample_id": "17",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 778,
+      "sample_id": "18",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 779,
+      "sample_id": "19",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 780,
+      "sample_id": "20",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 781,
+      "sample_id": "21",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 782,
+      "sample_id": "22",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 783,
+      "sample_id": "23",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 784,
+      "sample_id": "24",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 785,
+      "sample_id": "25",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 786,
+      "sample_id": "26",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 787,
+      "sample_id": "27",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 788,
+      "sample_id": "28",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 789,
+      "sample_id": "29",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 790,
+      "sample_id": "30",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 791,
+      "sample_id": "31",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 792,
+      "sample_id": "32",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 793,
+      "sample_id": "33",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 794,
+      "sample_id": "34",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 795,
+      "sample_id": "35",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 796,
+      "sample_id": "36",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 797,
+      "sample_id": "37",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 798,
+      "sample_id": "38",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 799,
+      "sample_id": "39",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 800,
+      "sample_id": "40",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 801,
+      "sample_id": "41",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 802,
+      "sample_id": "42",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 803,
+      "sample_id": "43",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 804,
+      "sample_id": "44",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 805,
+      "sample_id": "45",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 806,
+      "sample_id": "46",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 807,
+      "sample_id": "47",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 808,
+      "sample_id": "48",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 809,
+      "sample_id": "49",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 810,
+      "sample_id": "50",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 811,
+      "sample_id": "51",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 812,
+      "sample_id": "52",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 813,
+      "sample_id": "53",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 814,
+      "sample_id": "54",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 815,
+      "sample_id": "55",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 816,
+      "sample_id": "56",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 817,
+      "sample_id": "57",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 818,
+      "sample_id": "58",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 819,
+      "sample_id": "59",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 820,
+      "sample_id": "60",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 821,
+      "sample_id": "61",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 822,
+      "sample_id": "62",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 823,
+      "sample_id": "63",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 824,
+      "sample_id": "64",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 825,
+      "sample_id": "65",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 826,
+      "sample_id": "66",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 827,
+      "sample_id": "67",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 828,
+      "sample_id": "68",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 829,
+      "sample_id": "69",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 830,
+      "sample_id": "70",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 831,
+      "sample_id": "71",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 832,
+      "sample_id": "72",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 833,
+      "sample_id": "73",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 834,
+      "sample_id": "74",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 835,
+      "sample_id": "75",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 836,
+      "sample_id": "76",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 837,
+      "sample_id": "77",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 838,
+      "sample_id": "78",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 839,
+      "sample_id": "79",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 840,
+      "sample_id": "80",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 841,
+      "sample_id": "81",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 842,
+      "sample_id": "82",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 843,
+      "sample_id": "83",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 844,
+      "sample_id": "84",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 845,
+      "sample_id": "85",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 846,
+      "sample_id": "86",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 847,
+      "sample_id": "87",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 848,
+      "sample_id": "88",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 849,
+      "sample_id": "89",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 850,
+      "sample_id": "90",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 851,
+      "sample_id": "91",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 852,
+      "sample_id": "92",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 853,
+      "sample_id": "93",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 854,
+      "sample_id": "94",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "A"
+    },
+    {
+      "index": 855,
+      "sample_id": "95",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 856,
+      "sample_id": "96",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 857,
+      "sample_id": "97",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "C"
+    },
+    {
+      "index": 858,
+      "sample_id": "98",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "D"
+    },
+    {
+      "index": 859,
+      "sample_id": "99",
+      "category": "Counting/Counting with complex reasoning",
+      "answer": "B"
+    },
+    {
+      "index": 2980,
+      "sample_id": "0",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 2981,
+      "sample_id": "1",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 2982,
+      "sample_id": "2",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2983,
+      "sample_id": "3",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 2984,
+      "sample_id": "4",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 2985,
+      "sample_id": "5",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2986,
+      "sample_id": "6",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2987,
+      "sample_id": "7",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 2988,
+      "sample_id": "8",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 2989,
+      "sample_id": "9",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 2990,
+      "sample_id": "10",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 2991,
+      "sample_id": "11",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2992,
+      "sample_id": "12",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2993,
+      "sample_id": "13",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 2994,
+      "sample_id": "14",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 2995,
+      "sample_id": "15",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 2996,
+      "sample_id": "16",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2997,
+      "sample_id": "17",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 2998,
+      "sample_id": "18",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 2999,
+      "sample_id": "19",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3000,
+      "sample_id": "20",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3001,
+      "sample_id": "21",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3002,
+      "sample_id": "22",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3003,
+      "sample_id": "23",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3004,
+      "sample_id": "24",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3005,
+      "sample_id": "25",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3006,
+      "sample_id": "26",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3007,
+      "sample_id": "27",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3008,
+      "sample_id": "28",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3009,
+      "sample_id": "29",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3010,
+      "sample_id": "30",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3011,
+      "sample_id": "31",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3012,
+      "sample_id": "32",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3013,
+      "sample_id": "33",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3014,
+      "sample_id": "34",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3015,
+      "sample_id": "35",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3016,
+      "sample_id": "36",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3017,
+      "sample_id": "37",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3018,
+      "sample_id": "38",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3019,
+      "sample_id": "39",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3020,
+      "sample_id": "40",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3021,
+      "sample_id": "41",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3022,
+      "sample_id": "42",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3023,
+      "sample_id": "43",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3024,
+      "sample_id": "44",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3025,
+      "sample_id": "45",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3026,
+      "sample_id": "46",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3027,
+      "sample_id": "47",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3028,
+      "sample_id": "48",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3029,
+      "sample_id": "49",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3030,
+      "sample_id": "50",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3031,
+      "sample_id": "51",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3032,
+      "sample_id": "52",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3033,
+      "sample_id": "53",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3034,
+      "sample_id": "54",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3035,
+      "sample_id": "55",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3036,
+      "sample_id": "56",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3037,
+      "sample_id": "57",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3038,
+      "sample_id": "58",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3039,
+      "sample_id": "59",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3040,
+      "sample_id": "60",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3041,
+      "sample_id": "61",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3042,
+      "sample_id": "62",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3043,
+      "sample_id": "63",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3044,
+      "sample_id": "64",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3045,
+      "sample_id": "65",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3046,
+      "sample_id": "66",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3047,
+      "sample_id": "67",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3048,
+      "sample_id": "68",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3049,
+      "sample_id": "69",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3050,
+      "sample_id": "70",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3051,
+      "sample_id": "71",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3052,
+      "sample_id": "72",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3053,
+      "sample_id": "73",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3054,
+      "sample_id": "74",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3055,
+      "sample_id": "75",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3056,
+      "sample_id": "76",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3057,
+      "sample_id": "77",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3058,
+      "sample_id": "78",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3059,
+      "sample_id": "79",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3060,
+      "sample_id": "80",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3061,
+      "sample_id": "81",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3062,
+      "sample_id": "82",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3063,
+      "sample_id": "83",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3064,
+      "sample_id": "84",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3065,
+      "sample_id": "85",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3066,
+      "sample_id": "86",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3067,
+      "sample_id": "87",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3068,
+      "sample_id": "88",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3069,
+      "sample_id": "89",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3070,
+      "sample_id": "90",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3071,
+      "sample_id": "91",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 3072,
+      "sample_id": "92",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3073,
+      "sample_id": "93",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3074,
+      "sample_id": "94",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3075,
+      "sample_id": "95",
+      "category": "Counting/Regional counting",
+      "answer": "B"
+    },
+    {
+      "index": 3076,
+      "sample_id": "96",
+      "category": "Counting/Regional counting",
+      "answer": "A"
+    },
+    {
+      "index": 3077,
+      "sample_id": "97",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3078,
+      "sample_id": "98",
+      "category": "Counting/Regional counting",
+      "answer": "C"
+    },
+    {
+      "index": 3079,
+      "sample_id": "99",
+      "category": "Counting/Regional counting",
+      "answer": "D"
+    },
+    {
+      "index": 2203,
+      "sample_id": "23",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2211,
+      "sample_id": "31",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2224,
+      "sample_id": "44",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2228,
+      "sample_id": "48",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2234,
+      "sample_id": "54",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2247,
+      "sample_id": "67",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2260,
+      "sample_id": "80",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2274,
+      "sample_id": "94",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2281,
+      "sample_id": "101",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2285,
+      "sample_id": "105",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2289,
+      "sample_id": "109",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2317,
+      "sample_id": "137",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2318,
+      "sample_id": "138",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2336,
+      "sample_id": "156",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2338,
+      "sample_id": "158",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2347,
+      "sample_id": "167",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2352,
+      "sample_id": "172",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2361,
+      "sample_id": "181",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2374,
+      "sample_id": "194",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2376,
+      "sample_id": "196",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2388,
+      "sample_id": "208",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2413,
+      "sample_id": "233",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2415,
+      "sample_id": "235",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2419,
+      "sample_id": "239",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2420,
+      "sample_id": "240",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2423,
+      "sample_id": "243",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2427,
+      "sample_id": "247",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2429,
+      "sample_id": "249",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2432,
+      "sample_id": "252",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2440,
+      "sample_id": "260",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2447,
+      "sample_id": "267",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2450,
+      "sample_id": "270",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2457,
+      "sample_id": "277",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2468,
+      "sample_id": "288",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2469,
+      "sample_id": "289",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2471,
+      "sample_id": "291",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2482,
+      "sample_id": "302",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2490,
+      "sample_id": "310",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2494,
+      "sample_id": "314",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2500,
+      "sample_id": "320",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2508,
+      "sample_id": "328",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2511,
+      "sample_id": "331",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2514,
+      "sample_id": "334",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2517,
+      "sample_id": "337",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2536,
+      "sample_id": "356",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2541,
+      "sample_id": "361",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2566,
+      "sample_id": "386",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2569,
+      "sample_id": "389",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2571,
+      "sample_id": "391",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2576,
+      "sample_id": "396",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2582,
+      "sample_id": "402",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2584,
+      "sample_id": "404",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2599,
+      "sample_id": "419",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2605,
+      "sample_id": "425",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2610,
+      "sample_id": "430",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2615,
+      "sample_id": "435",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2623,
+      "sample_id": "443",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2624,
+      "sample_id": "444",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2628,
+      "sample_id": "448",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2629,
+      "sample_id": "449",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2632,
+      "sample_id": "452",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2644,
+      "sample_id": "464",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2659,
+      "sample_id": "479",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2662,
+      "sample_id": "482",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2684,
+      "sample_id": "504",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2687,
+      "sample_id": "507",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2688,
+      "sample_id": "508",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2698,
+      "sample_id": "518",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2705,
+      "sample_id": "525",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2708,
+      "sample_id": "528",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2710,
+      "sample_id": "530",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2713,
+      "sample_id": "533",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2729,
+      "sample_id": "549",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2733,
+      "sample_id": "553",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2738,
+      "sample_id": "558",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2749,
+      "sample_id": "569",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2754,
+      "sample_id": "574",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2761,
+      "sample_id": "581",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2769,
+      "sample_id": "589",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2778,
+      "sample_id": "598",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2789,
+      "sample_id": "609",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2812,
+      "sample_id": "632",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2817,
+      "sample_id": "637",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2820,
+      "sample_id": "640",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2828,
+      "sample_id": "648",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2832,
+      "sample_id": "652",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2843,
+      "sample_id": "663",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2857,
+      "sample_id": "677",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2868,
+      "sample_id": "688",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2875,
+      "sample_id": "695",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2879,
+      "sample_id": "699",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2893,
+      "sample_id": "713",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2914,
+      "sample_id": "734",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 2936,
+      "sample_id": "756",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2944,
+      "sample_id": "764",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2949,
+      "sample_id": "769",
+      "category": "Object properties/Object classification",
+      "answer": "A"
+    },
+    {
+      "index": 2962,
+      "sample_id": "782",
+      "category": "Object properties/Object classification",
+      "answer": "B"
+    },
+    {
+      "index": 2965,
+      "sample_id": "785",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2968,
+      "sample_id": "788",
+      "category": "Object properties/Object classification",
+      "answer": "D"
+    },
+    {
+      "index": 2971,
+      "sample_id": "791",
+      "category": "Object properties/Object classification",
+      "answer": "C"
+    },
+    {
+      "index": 1123,
+      "sample_id": "3",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1151,
+      "sample_id": "31",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1156,
+      "sample_id": "36",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1162,
+      "sample_id": "42",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1170,
+      "sample_id": "50",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1172,
+      "sample_id": "52",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1173,
+      "sample_id": "53",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1178,
+      "sample_id": "58",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1180,
+      "sample_id": "60",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1181,
+      "sample_id": "61",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1189,
+      "sample_id": "69",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1205,
+      "sample_id": "85",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1210,
+      "sample_id": "90",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1229,
+      "sample_id": "109",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1233,
+      "sample_id": "113",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1246,
+      "sample_id": "126",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1256,
+      "sample_id": "136",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1258,
+      "sample_id": "138",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1300,
+      "sample_id": "180",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1305,
+      "sample_id": "185",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1308,
+      "sample_id": "188",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1310,
+      "sample_id": "190",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1323,
+      "sample_id": "203",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1326,
+      "sample_id": "206",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1327,
+      "sample_id": "207",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1328,
+      "sample_id": "208",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1329,
+      "sample_id": "209",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1330,
+      "sample_id": "210",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1337,
+      "sample_id": "217",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1338,
+      "sample_id": "218",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1340,
+      "sample_id": "220",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1353,
+      "sample_id": "233",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1367,
+      "sample_id": "247",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1379,
+      "sample_id": "259",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1384,
+      "sample_id": "264",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1397,
+      "sample_id": "277",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1400,
+      "sample_id": "280",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1404,
+      "sample_id": "284",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1424,
+      "sample_id": "304",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1425,
+      "sample_id": "305",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1429,
+      "sample_id": "309",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1434,
+      "sample_id": "314",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1439,
+      "sample_id": "319",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1463,
+      "sample_id": "343",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1482,
+      "sample_id": "362",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1486,
+      "sample_id": "366",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1490,
+      "sample_id": "370",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1492,
+      "sample_id": "372",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1503,
+      "sample_id": "383",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1505,
+      "sample_id": "385",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1531,
+      "sample_id": "411",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1536,
+      "sample_id": "416",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1537,
+      "sample_id": "417",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1540,
+      "sample_id": "420",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1541,
+      "sample_id": "421",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1546,
+      "sample_id": "426",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1547,
+      "sample_id": "427",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1554,
+      "sample_id": "434",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1563,
+      "sample_id": "443",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1570,
+      "sample_id": "450",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1578,
+      "sample_id": "458",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1587,
+      "sample_id": "467",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1590,
+      "sample_id": "470",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1594,
+      "sample_id": "474",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1599,
+      "sample_id": "479",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1602,
+      "sample_id": "482",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1623,
+      "sample_id": "503",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1627,
+      "sample_id": "507",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1632,
+      "sample_id": "512",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1636,
+      "sample_id": "516",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1643,
+      "sample_id": "523",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1674,
+      "sample_id": "554",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1723,
+      "sample_id": "603",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1733,
+      "sample_id": "613",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1741,
+      "sample_id": "621",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1742,
+      "sample_id": "622",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1745,
+      "sample_id": "625",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1750,
+      "sample_id": "630",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1752,
+      "sample_id": "632",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1762,
+      "sample_id": "642",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1769,
+      "sample_id": "649",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1788,
+      "sample_id": "668",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1790,
+      "sample_id": "670",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1809,
+      "sample_id": "689",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1817,
+      "sample_id": "697",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1823,
+      "sample_id": "703",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1826,
+      "sample_id": "706",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1832,
+      "sample_id": "712",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1845,
+      "sample_id": "725",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1848,
+      "sample_id": "728",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1850,
+      "sample_id": "730",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1853,
+      "sample_id": "733",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 1864,
+      "sample_id": "744",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1877,
+      "sample_id": "757",
+      "category": "Object properties/Object color",
+      "answer": "A"
+    },
+    {
+      "index": 1881,
+      "sample_id": "761",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1883,
+      "sample_id": "763",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1887,
+      "sample_id": "767",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1913,
+      "sample_id": "793",
+      "category": "Object properties/Object color",
+      "answer": "D"
+    },
+    {
+      "index": 1918,
+      "sample_id": "798",
+      "category": "Object properties/Object color",
+      "answer": "C"
+    },
+    {
+      "index": 1919,
+      "sample_id": "799",
+      "category": "Object properties/Object color",
+      "answer": "B"
+    },
+    {
+      "index": 204,
+      "sample_id": "4",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 205,
+      "sample_id": "5",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 210,
+      "sample_id": "10",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 211,
+      "sample_id": "11",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 230,
+      "sample_id": "30",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 232,
+      "sample_id": "32",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 236,
+      "sample_id": "36",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 238,
+      "sample_id": "38",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 245,
+      "sample_id": "45",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 246,
+      "sample_id": "46",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 259,
+      "sample_id": "59",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 261,
+      "sample_id": "61",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 267,
+      "sample_id": "67",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 268,
+      "sample_id": "68",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 273,
+      "sample_id": "73",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 275,
+      "sample_id": "75",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 279,
+      "sample_id": "79",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 281,
+      "sample_id": "81",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 282,
+      "sample_id": "82",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 290,
+      "sample_id": "90",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 302,
+      "sample_id": "102",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 305,
+      "sample_id": "105",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 319,
+      "sample_id": "119",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 320,
+      "sample_id": "120",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 337,
+      "sample_id": "137",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 340,
+      "sample_id": "140",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 346,
+      "sample_id": "146",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 348,
+      "sample_id": "148",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 361,
+      "sample_id": "161",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 367,
+      "sample_id": "167",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 370,
+      "sample_id": "170",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 372,
+      "sample_id": "172",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 378,
+      "sample_id": "178",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 379,
+      "sample_id": "179",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 382,
+      "sample_id": "182",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 387,
+      "sample_id": "187",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 389,
+      "sample_id": "189",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 390,
+      "sample_id": "190",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 408,
+      "sample_id": "208",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 417,
+      "sample_id": "217",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 420,
+      "sample_id": "220",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 427,
+      "sample_id": "227",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 432,
+      "sample_id": "232",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 434,
+      "sample_id": "234",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 446,
+      "sample_id": "246",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 466,
+      "sample_id": "266",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 467,
+      "sample_id": "267",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 476,
+      "sample_id": "276",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 478,
+      "sample_id": "278",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 481,
+      "sample_id": "281",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 482,
+      "sample_id": "282",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 490,
+      "sample_id": "290",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 493,
+      "sample_id": "293",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 494,
+      "sample_id": "294",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 495,
+      "sample_id": "295",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 500,
+      "sample_id": "300",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 514,
+      "sample_id": "314",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 518,
+      "sample_id": "318",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 521,
+      "sample_id": "321",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 523,
+      "sample_id": "323",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 526,
+      "sample_id": "326",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 528,
+      "sample_id": "328",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 538,
+      "sample_id": "338",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 545,
+      "sample_id": "345",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 556,
+      "sample_id": "356",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 565,
+      "sample_id": "365",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 567,
+      "sample_id": "367",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 569,
+      "sample_id": "369",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 575,
+      "sample_id": "375",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 580,
+      "sample_id": "380",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 584,
+      "sample_id": "384",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 586,
+      "sample_id": "386",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 589,
+      "sample_id": "389",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 591,
+      "sample_id": "391",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 593,
+      "sample_id": "393",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 595,
+      "sample_id": "395",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 609,
+      "sample_id": "409",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 616,
+      "sample_id": "416",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 619,
+      "sample_id": "419",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 620,
+      "sample_id": "420",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 622,
+      "sample_id": "422",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 624,
+      "sample_id": "424",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 631,
+      "sample_id": "431",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 632,
+      "sample_id": "432",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 643,
+      "sample_id": "443",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 644,
+      "sample_id": "444",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 647,
+      "sample_id": "447",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 650,
+      "sample_id": "450",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 653,
+      "sample_id": "453",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 659,
+      "sample_id": "459",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 663,
+      "sample_id": "463",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 665,
+      "sample_id": "465",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 670,
+      "sample_id": "470",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 681,
+      "sample_id": "481",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    },
+    {
+      "index": 688,
+      "sample_id": "488",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 691,
+      "sample_id": "491",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "A"
+    },
+    {
+      "index": 693,
+      "sample_id": "493",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 694,
+      "sample_id": "494",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "B"
+    },
+    {
+      "index": 696,
+      "sample_id": "496",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "C"
+    },
+    {
+      "index": 697,
+      "sample_id": "497",
+      "category": "Object spatial relationship/Object spatial relationship",
+      "answer": "D"
+    }
+  ]
+}
