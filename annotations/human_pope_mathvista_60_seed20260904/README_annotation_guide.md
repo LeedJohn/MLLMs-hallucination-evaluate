@@ -4,8 +4,8 @@ This fixed set contains 60 model responses: 30 from POPE and 30 from MathVista.
 
 Fill these fields in `annotation_sheet.csv`:
 
-- `human_is_hallucination`: `yes` or `no`. Mark `yes` when the model response is not supported by the image/question/reference answer.
-- `human_hallucination_type`: choose one of `factual inconsistency`, `vision-grounding error`, `reasoning hallucination`, `none`, or `uncertain`.
+- `human_is_hallucination`: yes or no. Mark yes when the model response is not supported by the image/question/reference answer.
+- `human_hallucination_type`: choose one of factual inconsistency, vision-grounding error, reasoning hallucination, none, or uncertain.
 - `human_evidence`: one short reason, e.g. `The image does not contain the queried object`, `The model counted incorrectly`, or `The final answer contradicts the chart`.
 - `human_confidence_1_to_3`: `1` low, `2` medium, `3` high.
 
